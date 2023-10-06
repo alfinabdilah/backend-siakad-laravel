@@ -4,8 +4,7 @@
 
 @push('style')
     <!-- CSS Libraries -->
-    <link rel="stylesheet"
-        href="{{ asset('library/bootstrap-social/bootstrap-social.css') }}">
+    <link rel="stylesheet" href="{{ asset('library/bootstrap-social/bootstrap-social.css') }}">
 @endpush
 
 @section('main')
@@ -57,10 +56,12 @@
                     </button>
                 </div>
             </form>
+
+
         </div>
     </div>
     <div class="text-muted mt-5 text-center">
-        Don't have an account? <a href="{{route('register')}}">Create One</a>
+        Don't have an account? <a href="{{ route('register') }}">Create One</a>
     </div>
 @endsection
 
